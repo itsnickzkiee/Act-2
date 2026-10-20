@@ -1,0 +1,102 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body{
+    background: linear-gradient(135deg,#141e30,#243b55);
+    color:white;
+}
+
+/* Header */
+header{
+    background:#00bcd4;
+    color:white;
+    text-align:center;
+    padding:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+/* Navigation */
+nav{
+    background:#ff4081;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Main */
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:70vh;
+}
+
+/* Card */
+.profile-card{
+    background:white;
+    color:#333;
+    width:350px;
+    padding:30px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+/* Image */
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #00bcd4;
+    margin-bottom:20px;
+}
+
+/* Text */
+.profile-card h2{
+    margin-bottom:10px;
+}
+
+.profile-card p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+/* Button */
+button{
+    background:#00bcd4;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0097a7;
+    transform:scale(1.05);
+}
